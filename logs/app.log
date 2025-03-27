@@ -1,0 +1,18 @@
+2025-02-17 17:37:46 2025-02-17T10:37:46.839Z  INFO 1 --- [account-service] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-17 17:37:46 2025-02-17T10:37:46.856Z  INFO 1 --- [account-service] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-17 17:37:46 2025-02-17T10:37:46.877Z  INFO 1 --- [account-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739788666876 with initial instances count: 0
+2025-02-17 17:37:46 2025-02-17T10:37:46.959Z  INFO 1 --- [account-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ACCOUNT-SERVICE with eureka with status UP
+2025-02-17 17:37:46 2025-02-17T10:37:46.959Z  INFO 1 --- [account-service] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739788666959, current=UP, previous=STARTING]
+2025-02-17 17:37:46 2025-02-17T10:37:46.963Z  INFO 1 --- [account-service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/d05257c56f3f:account-service:8081: registering service...
+2025-02-17 17:37:47 2025-02-17T10:37:47.032Z  INFO 1 --- [account-service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/d05257c56f3f:account-service:8081 - registration status: 204
+2025-02-17 17:37:47 2025-02-17T10:37:47.058Z  INFO 1 --- [account-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-17 17:37:47 2025-02-17T10:37:47.065Z  INFO 1 --- [account-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2025-02-17 17:37:47 2025-02-17T10:37:47.096Z  INFO 1 --- [account-service] [           main] c.m.a.AccountServiceApplication          : Started AccountServiceApplication in 50.646 seconds (process running for 56.169)
+2025-02-17 17:38:16 2025-02-17T10:38:16.836Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-17 17:38:16 2025-02-17T10:38:16.837Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-17 17:38:16 2025-02-17T10:38:16.837Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-17 17:38:16 2025-02-17T10:38:16.837Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-17 17:38:16 2025-02-17T10:38:16.837Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-17 17:38:16 2025-02-17T10:38:16.837Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-02-17 17:38:16 2025-02-17T10:38:16.837Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-17 17:38:16 2025-02-17T10:38:16.866Z  INFO 1 --- [account-service] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
